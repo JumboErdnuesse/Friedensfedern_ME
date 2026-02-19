@@ -192,7 +192,7 @@ function displayFullNews(container) {
             <span class="news-category">${item.category}</span>
           </div>
           <h2>${item.title}</h2>
-          <p>${item.content}</p>
+          <div class="news-text">${item.content}</div>
           <div class="news-tags">${item.tags.map(tag => `<span class="tag">${tag}</span>`).join('')}</div>
         </div>
       </article>

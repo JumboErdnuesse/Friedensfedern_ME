@@ -2,13 +2,13 @@
 const eventItems = [
   {
     id: "event-1",
-    day: "05",
-    month: "Sep",
-    title: "Fütterungsbeginn",
-    time: "12:30 - 14:00 Uhr",
+    day: "täglich",
+    month: "",
+    title: "Fütterung",
+    time: "12:00 - 13:30 Uhr",
     location: "Wiese am Hammerbach",
-    description: "Auftaktveranstaltung um die Umsiedlung der Tauben aus dem Innenstadtbereich zu beginnen.",
-    image: "images/Flyer-1.jpg",
+    description: "Tägliche Fütterung unserer Stadttauben an der Wiese am Hammerbach.",
+    image: "",
   }
 ];
 
