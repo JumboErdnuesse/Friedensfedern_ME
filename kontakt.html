@@ -4,10 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Kontakt - Taubenhilfe Mettmann</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="stylesheet" href="fonts/fontawesome/css/all.min.css">
   <link rel="icon" href="images/favicon.ico" type="image/x-icon">
   <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
   <link rel="stylesheet" href="style.css">
@@ -27,59 +24,60 @@
   <main>
     <section class="contact-section">
       <div class="contact-container">
-        <div class="contact-info-box">
-          <h2 class="section-title">So erreicht Ihr uns</h2>
-          
-          <div class="contact-method">
-            <div class="contact-icon">
-              <i class="fas fa-map-marker-alt"></i>
+        <div class="contact-sidebar">
+          <div class="contact-info-box">
+            <h2 class="section-title">So erreicht Ihr uns</h2>
+
+            <div class="contact-method">
+              <div class="contact-icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div class="contact-details">
+                <h3>Adresse</h3>
+                <p> Friedensfedern Mettmann e.V.i.G</p>
+                <p>40822 Mettmann</p>
+              </div>
             </div>
-            <div class="contact-details">
-              <h3>Adresse</h3>
-              <p>Stadttauben Mettmann e.V.</p>
-              <p>40822 Mettmann</p>
+
+            <div class="contact-method">
+              <div class="contact-icon">
+                <i class="fas fa-phone"></i>
+              </div>
+              <div class="contact-details">
+                <h3>Telefon</h3>
+                <p>0174/5808456</p>
+              </div>
+            </div>
+
+            <div class="contact-method">
+              <div class="contact-icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div class="contact-details">
+                <h3>E-Mail</h3>
+                <p>info.friedensfedern.mettmann@gmx.de</p>
+              </div>
+            </div>
+
+            <div class="social-contact">
+              <h3>Folgen Sie uns</h3>
+              <div class="social-links">
+                <a href="" target="_blank" rel="noopener noreferrer" aria-label="Besuchen Sie uns auf Facebook"><i class="fab fa-facebook-f"></i></a>
+              </div>
             </div>
           </div>
-          
-          <div class="contact-method">
-            <div class="contact-icon">
-              <i class="fas fa-phone"></i>
-            </div>
-            <div class="contact-details">
-              <h3>Telefon</h3>
-              <p>Aktuell haben wir leider keine telefonische Erreichbarkeit; Kontakt nur über Facebook und E-Mail möglich</p> 
-            </div>
-          </div>
-          
-          <div class="contact-method">
-            <div class="contact-icon">
-              <i class="fas fa-envelope"></i>
-            </div>
-            <div class="contact-details">
-              <h3>E-Mail</h3>
-              <p>stadttauben_mettmann@gmx.de</p>
-            </div>
-          </div>
-          
-          <div class="social-contact">
-            <h3>Folgen Sie uns</h3>
-            <div class="social-links">
-              <a href="https://www.facebook.com/groups/400468505791432/" target="_blank" rel="noopener noreferrer" aria-label="Besuchen Sie uns auf Facebook"><i class="fab fa-facebook-f"></i></a>
-            </div>
-          </div>
-        </div>
-        
-        <!-- Neue Bankdaten-Sektion -->
-        <div class="contact-info-box" id="bankdaten">
+
+          <!-- Bankdaten-Sektion (ausgeblendet, nicht geloescht) -->
+          <div class="contact-info-box" id="bankdaten" style="display: none;">
           <h2 class="section-title">Bankverbindung</h2>
           
           <div class="bank-info">
             <div class="bank-details">
-              <p><strong>Kontoinhaber:</strong> <span id="account-holder">Stadttauben Mettmann e.V.</span></p>
-              <p><strong>IBAN:</strong> <span id="iban">DE64 3015 0200 0002 1884 56</span></p>
-              <p><strong>BIC:</strong> <span id="bic">WELADED1KSD</span></p>
-              <p><strong>Bank:</strong> <span id="bank-name">Kreissparkasse Düsseldorf</span></p>
-              <p><strong>Verwendungszweck:</strong> <span id="purpose">Spende Stadttauben Mettmann</span></p>
+              <p><strong>Kontoinhaber:</strong> <span id="account-holder">dummy</span></p>
+              <p><strong>IBAN:</strong> <span id="iban">dummy</span></p>
+              <p><strong>BIC:</strong> <span id="bic">dummy</span></p>
+              <p><strong>Bank:</strong> <span id="bank-name">dummy</span></p>
+              <p><strong>Verwendungszweck:</strong> <span id="purpose">dummy</span></p>
             </div>
             <div class="copy-buttons">
               <button class="copy-button" data-copy="account-holder">
@@ -108,11 +106,12 @@
             <p>Für Spenden bis 300 Euro reicht dem Finanzamt der Kontoauszug als Nachweis. Für höhere Beträge stellen wir gerne eine Spendenquittung aus. Bitte kontaktiert uns dafür unter Angabe eurer vollständigen Adresse.</p>
           </div>
         </div>
-        
+        </div>
+
         <div class="contact-form-box">
           <h2 class="section-title">Kontaktformular</h2>
           
-          <form class="contact-form" action="https://formsubmit.co/stadttauben_mettmann@gmx.de" method="POST" id="contact-form">
+          <form class="contact-form" action="https://formsubmit.co/info.friedensfedern.mettmann@gmx.de" method="POST" id="contact-form">
             <div class="form-group">
               <label for="name">Name *</label>
               <input type="text" id="name" name="name" required>
@@ -178,7 +177,7 @@
         
         <div class="faq-item">
           <div class="faq-question">
-            <h3>Wie kann ich die Taubenhilfe Mettmann unterstützen?</h3>
+            <h3>Wie kann ich die Friedensfedern Mettmann unterstützen?</h3>
             <span class="faq-toggle"><i class="fas fa-plus"></i></span>
           </div>
           <div class="faq-answer">

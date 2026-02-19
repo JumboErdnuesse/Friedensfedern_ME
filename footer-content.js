@@ -3,10 +3,10 @@ const footerContent =`
   <div class="footer-content">
     <div class="footer-column contact-info">
       <h3>Kontakt</h3>
-      <p><i class="fas fa-envelope"></i> stadttauben_mettmann@gmx.de </p>
+      <p><i class="fas fa-envelope"></i> info.friedensfedern.mettmann@gmx.de </p>
       
       <div class="social-links">
-        <a href="https://www.facebook.com/groups/400468505791432/" target="_blank" rel="noopener noreferrer" aria-label="Besuchen Sie uns auf Facebook"><i class="fab fa-facebook-f"></i></a>
+        <a href="" target="_blank" rel="noopener noreferrer" aria-label="Besuchen Sie uns auf Facebook"><i class="fab fa-facebook-f"></i></a>
       </div>
     </div>
     
@@ -22,7 +22,7 @@ const footerContent =`
   </div>
 
   <div class="copyright">
-    <p>© 2025 Stadttauben Mettmann e.V. | <a href="impressum.html">Impressum</a> | <a href="datenschutz.html">Datenschutz</a></p>
+    <p>© 2026 Friedensfedern Mettmann e.V.i.G | <a href="impressum.html">Impressum</a> | <a href="datenschutz.html">Datenschutz</a></p>
   </div>
 `;
 
