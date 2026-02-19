@@ -6,7 +6,7 @@ const footerContent =`
       <p><i class="fas fa-envelope"></i> info.friedensfedern.mettmann@gmx.de </p>
       
       <div class="social-links">
-        <a href="" target="_blank" rel="noopener noreferrer" aria-label="Besuchen Sie uns auf Facebook"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://www.facebook.com/profile.php?id=61586020831110" target="_blank" rel="noopener noreferrer" aria-label="Besuchen Sie uns auf Facebook"><i class="fab fa-facebook-f"></i></a>
       </div>
     </div>
     
