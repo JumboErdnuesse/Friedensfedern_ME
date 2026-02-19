@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://friedensfedern.github.io/Friedensfedern_ME/sitemap.xml
